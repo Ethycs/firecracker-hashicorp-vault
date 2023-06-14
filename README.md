@@ -42,7 +42,8 @@ sudo usermod -aG docker $USER
 Log out and log back in so the group membership is re-evaluated.
 
 1. Put `install-firecracker.sh` in `/firecracker` directory.
-2. Put `linux-kernel.config` in `/firecracker` directory.
+2. Put `linux-kernel.config` in `/firecracker` directory. 
+See https://github.com/firecracker-microvm/firecracker/tree/main/resources/guest_configs
 3. `chmod +x /firecracker/install-firecracker.sh`
 
 ## Install latest Firecracker
@@ -69,7 +70,7 @@ cp /firecracker/linux-kernel.config /firecracker/linux.git/.config
 ```
 
 The `linux-kernel.config` file comes from https://raw.githubusercontent.com/firecracker-microvm/firecracker/master/resources/microvm-kernel-x86_64.config.
-
+Ethys REV: I used resources/guest_configs/microvm-kernel-x86_64-5.10.config
 ## Build the kernel
 
 You may have to decrease the number of parallel tasks, I'm using `32`.
