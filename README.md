@@ -1,6 +1,6 @@
 # Baby steps with Firecracker
 
-This document assumes a freshly installed HWE Ubuntu 18.04.05.
+This document assumes a freshly installed Ubuntu Server LTS
 
 ## Prepare the environment for all dependencies we will need further
 
