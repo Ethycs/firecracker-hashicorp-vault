@@ -70,7 +70,7 @@ cp /firecracker/linux-kernel.config /firecracker/linux.git/.config
 ```
 
 The `linux-kernel.config` file comes from https://raw.githubusercontent.com/firecracker-microvm/firecracker/master/resources/microvm-kernel-x86_64.config.
-Ethys REV: I used resources/guest_configs/microvm-kernel-x86_64-5.10.config
+REV: I used resources/guest_configs/microvm-kernel-x86_64-5.10.config
 ## Build the kernel
 
 You may have to decrease the number of parallel tasks, I'm using `32`.
