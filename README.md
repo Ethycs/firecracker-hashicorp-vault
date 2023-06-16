@@ -42,7 +42,7 @@ sudo usermod -aG docker $USER
 Log out and log back in so the group membership is re-evaluated.
 
 1. Put `install-firecracker.sh` in `/firecracker` directory.
-2. Put `linux-kernel.config` in `/firecracker` directory. 
+2. Put `linux-kernel-<ARCH>.config` in `/firecracker` directory. 
 See https://github.com/firecracker-microvm/firecracker/tree/main/resources/guest_configs
 3. `chmod +x /firecracker/install-firecracker.sh`
 
