@@ -55,9 +55,9 @@ See https://github.com/firecracker-microvm/firecracker/tree/main/resources/guest
 This will install Firecracker in `/firecracker/releases/release-X` directory and link `firecracker` and `jailer` binaries on the `PATH`.
 
 ## Get Linux kernel
-
+(Note as of 6/15/2023, Kernel v5.10 is best supported on AMD and Intel)
 ```sh
-export KERNEL_VERSION=v5.8
+export KERNEL_VERSION=v5.10
 cd /firecracker/linux.git
 git clone https://github.com/torvalds/linux.git .
 git checkout ${KERNEL_VERSION}
